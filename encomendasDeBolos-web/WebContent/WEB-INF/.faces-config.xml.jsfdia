@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:*" PATH="*" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:*:0" NAME="item" PATH="*" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="listagemClientes::#pages#listagemClientes.xhtml" NAME="output"
+    PATH="/pages/listagemClientes.xhtml"
+    TARGET="rules:#pages#listagemClientes.xhtml"
+    TITLE="listagemClientes" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="listagemBolos::#pages#listagemBolos.xhtml"
+    NAME="output1" PATH="/pages/listagemBolos.xhtml"
+    TARGET="rules:#pages#listagemBolos.xhtml" TITLE="listagemBolos" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="listagemVendas::#pages#listagemVendas.xhtml"
+    NAME="output3" PATH="/pages/listagemVendas.xhtml"
+    TARGET="rules:#pages#listagemVendas.xhtml" TITLE="listagemVendas" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="cadastroCliente::#pages#cadastroCliente.xhtml" NAME="output4"
+    PATH="/pages/cadastroCliente.xhtml"
+    TARGET="rules:#pages#cadastroCliente.xhtml" TITLE="cadastroCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#listagemClientes.xhtml"
+  PATH="/pages/listagemClientes.xhtml" SHAPE="304,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#listagemVendas.xhtml"
+  PATH="/pages/listagemVendas.xhtml" SHAPE="304,529,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroCliente.xhtml"
+  PATH="/pages/cadastroCliente.xhtml" SHAPE="304,641,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#listagemBolos.xhtml"
+  PATH="/pages/listagemBolos.xhtml" SHAPE="288,241,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>
