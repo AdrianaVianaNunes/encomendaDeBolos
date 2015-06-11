@@ -10,4 +10,7 @@
       <context-root>encomendasDeBolos-web</context-root>
     </web>
   </module>
+  <module>
+    <ejb>encomendaDeBolos-model.jar</ejb>
+  </module>
 </application>

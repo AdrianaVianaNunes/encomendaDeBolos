@@ -6,6 +6,7 @@
 		<project>encomendasDeBolos</project>
 		<project>encomendasDeBolosClient</project>
 		<project>encomendasDeBolos-web</project>
+		<project>encomendaDeBolos-model</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

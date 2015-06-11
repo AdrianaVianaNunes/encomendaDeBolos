@@ -12,5 +12,9 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="encomendaDeBolos-model.jar" deploy-path="/" handle="module:/resource/encomendaDeBolos-model/encomendaDeBolos-model">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
