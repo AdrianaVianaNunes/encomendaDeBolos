@@ -9,6 +9,8 @@ import br.ufms.cpcx.engweb.encomendasDeBolos.business.CadastroCliente;
 import br.ufms.cpcx.engweb.encomendasDeBolos.dao.ClienteDAO;
 import br.ufms.cpcx.engweb.encomendasDeBolos.model.Cliente;
 
+
+
 @Stateless
 public class CadastroClienteImpl implements CadastroCliente {
 	@EJB
@@ -16,8 +18,6 @@ public class CadastroClienteImpl implements CadastroCliente {
 
 	@Override
 	public Cliente cadastrarCliente(Cliente cliente) {
-		// Validar CPF
-		// Validar rendaMensal
 		return clienteDAO.persist(cliente);
 	}
 
