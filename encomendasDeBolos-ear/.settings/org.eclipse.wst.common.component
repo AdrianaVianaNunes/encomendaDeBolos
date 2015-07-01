@@ -5,13 +5,6 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="encomendasDeBolosClient.jar" deploy-path="/" handle="module:/resource/encomendasDeBolosClient/encomendasDeBolosClient">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="encomendasDeBolos-web.war" deploy-path="/" handle="module:/resource/encomendasDeBolos-web/encomendasDeBolos-web">
-            <dependent-object/>
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="encomendaDeBolos-model.jar" deploy-path="/" handle="module:/resource/encomendaDeBolos-model/encomendaDeBolos-model">
             <dependent-object/>
             <dependency-type>uses</dependency-type>

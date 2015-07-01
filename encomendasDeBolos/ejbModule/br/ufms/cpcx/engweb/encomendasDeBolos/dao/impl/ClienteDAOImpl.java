@@ -10,12 +10,20 @@ import javax.persistence.Query;
 import br.ufms.cpcx.engweb.encomendasDeBolos.dao.ClienteDAO;
 import br.ufms.cpcx.engweb.encomendasDeBolos.model.Cliente;
 
-@Stateless
-public class ClienteDAOImpl implements ClienteDAO{
 
+
+
+
+
+
+
+
+
+@Stateless
+public class ClienteDAOImpl implements ClienteDAO {
 	@PersistenceContext
 	private EntityManager em;
-	
+
 	@Override
 	public Cliente persist(Cliente t) {
 		if (t.getId() != null) {
@@ -61,7 +69,8 @@ public class ClienteDAOImpl implements ClienteDAO{
 
 	@Override
 	public void removerCliente(Long id) {
-		
+		//Cliente cliente = findById(id);
+	    //removerCliente(cliente);
 		Query query = em.createQuery("DELETE FROM Cliente c WHERE c.id = "+id);
 		query.executeUpdate();
 	}

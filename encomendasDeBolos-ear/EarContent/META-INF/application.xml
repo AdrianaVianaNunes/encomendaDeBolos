@@ -5,12 +5,6 @@
     <ejb>encomendasDeBolos.jar</ejb>
   </module>
   <module>
-    <web>
-      <web-uri>encomendasDeBolos-web.war</web-uri>
-      <context-root>encomendasDeBolos-web</context-root>
-    </web>
-  </module>
-  <module>
     <ejb>encomendaDeBolos-model.jar</ejb>
   </module>
 </application>
