@@ -11,6 +11,7 @@ import br.ufms.cpcx.engweb.encomendasDeBolos.dao.ClienteDAO;
 import br.ufms.cpcx.engweb.encomendasDeBolos.model.Cliente;
 
 
+<<<<<<< HEAD
 
 
 
@@ -19,6 +20,8 @@ import br.ufms.cpcx.engweb.encomendasDeBolos.model.Cliente;
 
 
 
+=======
+>>>>>>> d5337d6f86900794b882e1ad7d48e3ec15c82d8e
 @Stateless
 public class ClienteDAOImpl implements ClienteDAO {
 	@PersistenceContext
